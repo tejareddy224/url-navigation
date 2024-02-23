@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+        center 
+        {
+            
+            display: inline-block;
+            
+            margin-top: 100px;
+            margin-bottom: auto;
+            margin-left: 400px;
+            padding: 25px;
+        }
+        center:hover
+        {
+            padding: 35px;
+            border-radius:100% ;
+            border: 2px solid grey;
+
+        }
+        a
+        {
+            color: blue;
+        }
+        a:hover
+        {
+            color: green;
+            text-decoration:solid;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>first html page</h1>
+        <h2>content of first html page</h2>
+        <a href="{% url 'secondpage' %} "><h2>navigate to second page</h2></a>
+    </center>
+</body>
+</html>
